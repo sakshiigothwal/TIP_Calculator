@@ -10,15 +10,18 @@
     <div class="container">
         <h1>Tip Calculator</h1>
         <label for="bill">Bill Amount:</label>
-        <input type="number" placeholder="  $" required id="bill">
+        <input type="number" placeholder="$" required id="bill">
         <br>
         <label for="tip">Tip Percentage:</label>
-        <input type="number" placeholder="  %" required id="tip">
+        <input type="number" placeholder="%" required id="tip">
         <br>
         <button id="calculate">CALCULATE</button>
         <br/>
+        <button id="clear">CLEAR</button>
+        <br/>
         <label for="total"></label>
         <span id="total">Total: </span>
+        <p id="error"></p>
     </div>
     <script src="./index.js"></script>
 </body>
