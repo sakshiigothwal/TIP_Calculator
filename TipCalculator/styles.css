@@ -21,6 +21,7 @@ h1{
 
 input{
     padding: 10px 0;
+    padding-left: 10px;
     border: 1px solid #fef4ff;
     width: 100%;
     margin: 10px auto;
@@ -33,6 +34,7 @@ button{
     border: 1px solid rgb(160, 98, 160);
     margin: 10px 0;
     transition: background-color .3s ease;
+    width: 20%;
 }
 
 button:hover{
@@ -45,4 +47,7 @@ button:hover{
 #total {
     font-size: 24px;
     margin-top: 10px;
+}
+#error{
+    color: red;
 }
